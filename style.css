@@ -6,6 +6,7 @@ body{
   font-style: normal;
 }
 
+
 body {
     display: flex;
     flex-direction: row;
@@ -15,15 +16,34 @@ img{
     height: 100vh;
 }
 .form{
-    background-color: rgb(241, 240, 240);
+    background-color: rgb(244, 244, 244);
+ 
 }
 .quote{
-   padding: 5rem; 
+    padding: 2rem;
    padding-top: 7rem;
-   padding-bottom: 3rem;
+   padding-bottom: 1rem;
    font-size: 24px;
 }
-.mid{
+.mid {
     background-color: white;
-    box-shadow: 12px 5px 5px rgb(170, 169, 169);
+    box-shadow: 12px 5px 5px rgb(213, 211, 211);
+    padding: 2rem;
+}
+.mid form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-right: 150px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;     
+    width: 300px;
+    margin-right: 100px  ;
+}
+input{
+    padding: 6px 0rem;
+    margin: 6px 0px;
 }

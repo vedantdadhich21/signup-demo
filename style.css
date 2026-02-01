@@ -46,4 +46,30 @@ img{
 input{
     padding: 6px 0rem;
     margin: 6px 0px;
+    border: 1px solid rgb(206, 205, 205);
+    border-radius: 4px;
 }
+input:focus{
+    box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.38);
+}
+.create{
+    margin: 2rem;
+}
+.create button{
+    background-color: rgba(211, 4, 4, 0.857);
+    color: white;
+    font-size: 24px;
+    border-radius: 8px;
+    border: none;
+    padding: 1rem 2.5rem;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.546);
+}
+.login{
+    margin-top: 2rem;
+    font-size: 22px;
+    font-weight: 400;
+}
+input[type="password"]:invalid{
+     border: 2px solid rgb(255, 0, 0);
+}
+
